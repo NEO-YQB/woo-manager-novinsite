@@ -1,0 +1,70 @@
+name: woo_store_manager
+description: "اپلیکیشن پیشرفته مدیریت فروشگاه وردپرس و ووکامرس برای اندروید"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # مدیریت وضعیت (State Management)
+  provider: ^6.1.2
+
+  # ارتباط با شبکه و API
+  dio: ^5.7.0
+
+  # ذخیره‌سازی امن و تنظیمات
+  flutter_secure_storage: ^9.2.2
+  shared_preferences: ^2.3.2
+
+  # فاکتور، اسناد و پرینت PDF
+  pdf: ^3.11.1
+  printing: ^5.13.0
+  path_provider: ^2.1.4
+  share_plus: ^10.1.1
+
+  # نمودارها و ویژوالایزرها
+  fl_chart: ^0.69.0
+
+  # اسکنر کد QR جهت ورود سریع
+  mobile_scanner: ^5.2.3
+
+  # تماس با مشتری و باز کردن لینک‌ها (تلفن، واتساپ، پیامک)
+  url_launcher: ^6.3.0
+
+  # امنیت و قفل اثر انگشت / بیومتریک
+  local_auth: ^2.3.0
+
+  # تجربه کاربری و لودر اسکلتی
+  shimmer: ^3.0.0
+
+  # تقویم شمسی و فرمت ارقام/قیمت
+  shamsi_date: ^1.0.8
+  intl: ^0.20.1
+
+  # لود و کش تصاویر محصولات
+  cached_network_image: ^3.4.1
+
+  # اعلان‌ها و نوتیفیکیشن‌های سیستم (Push & Local Notifications)
+  flutter_local_notifications: ^18.0.1
+
+  # آیکون‌ها و ابزارهای بصری
+  flutter_svg: ^2.0.10+1
+  font_awesome_flutter: ^10.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
